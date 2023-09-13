@@ -274,17 +274,17 @@ filter = []
 def randBuildLSB():
     vchrome = str(random.randint(100,925))+".0.0."+str(random.randint(1,8))+"."+str(random.randint(40,150))
     VAPP = random.randint(410000000,499999999)
-    END = '[FBAN/FB4A;FBAV/181.0.0.32.50;FBBV/647940611;FBRV/0;FBPN/com.facebook.katana;FBLC/mk_MK;FBMF/Realme;FBBD/Realme;FBDV/RMX2536;FBSV/7;FBCA/armeabi-v7a:armeabi;FBDM/{density=2.0,width=720,height=1440};FB_FW/1;]'
+    END = '[FBAN/FB4A;FBAV/231.0.0.72.80;FBBV/646754811;FBRV/0;FBPN/com.facebook.katana;FBLC/mk_MK;FBMF/Realme;FBBD/Realme;FBDV/RMX2536;FBSV/7;FBCA/armeabi-v7a:armeabi;FBDM/{density=2.0,width=720,height=1440};FB_FW/1;]'
     ua = f'Dalvik/2.1.0 (Linux; U; Android {random.randint(4,13)}; {random.choice(model2)} Build/SP1A.{random.randint(111111,999999)}.{random.randint(111,999)}) '+END
     return ua
 
 def randFBAN():
   VAPP = random.randint(410000000,499999999)
-  ua="[FBAN/FB4A;FBAV/470.1.80.24.874;FBBV/"+str(VAPP)+";FBDM/{density=2.5,width=780,height=1920};FBLC/fr_IN;FBRV/4214899694;FBCR/1030;FBMF/Realme;FBBD/Ostin;FBPN/com.facebook.katana;FBDV/"+random.choice(model2)+";FBSV/16;FBOP/5;FBCA/arm64-v8a:;]"
+  ua="[FBAN/FB4A;FBAV/580.1.80.24.994;FBBV/"+str(VAPP)+";FBDM/{density=2.5,width=780,height=1920};FBLC/fr_IN;FBRV/6244899694;FBCR/1030;FBMF/Realme;FBBD/Ostin;FBPN/com.facebook.katana;FBDV/"+random.choice(model2)+";FBSV/16;FBOP/5;FBCA/arm64-v8a:;]"
   return ua
 
 def randBuildvsskj():
-    END = '[FBAN/Orca-Android;FBAV/241.0.0.17.116;FBPN/com.facebook.orca;FBLC/th_TH;FBBV/182747440;FBCR/TRUE-H;FBMF/OPPO;FBBD/OPPO;FBDV/CPH1909;FBSV/8.1.0;FBCA/armeabi-v7a:armeabi;FBDM/{density=2.0,width=1424,height=720};FB_FW/1;]'
+    END = '[FBAN/Orca-Android;FBAV/653.0.0.67.246;FBPN/com.facebook.orca;FBLC/th_TH;FBBV/875947440;FBCR/TRUE-H;FBMF/OPPO;FBBD/OPPO;FBDV/CPH1909;FBSV/8.1.0;FBCA/armeabi-v7a:armeabi;FBDM/{density=2.0,width=1424,height=720};FB_FW/1;]'
     ua = f'Dalvik/2.1.0 (Linux; U; Android {random.randint(4,13)}; {random.choice(model2)} Build/RP2A.{random.randint(111111,999999)}.{random.randint(111,999)}) '+END
     return ua
 
@@ -328,7 +328,7 @@ def mogid():
     if select =='1':
         method_crack()
     elif select =='W':
-        os.system('xdg-open https://chat.whatsapp.m/J3gpK8NYNQBHhEYnVxN4X7')
+        os.system('xdg-open https://cha.whatsapp.m/J3gpK8NYNQBHhEYnVxN4X7')
         pass
     elif select =='F':
         os.system('xdg-open https://facebook.comroups/3017062245271082/')
